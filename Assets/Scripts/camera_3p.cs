@@ -7,12 +7,12 @@ public class camera_3p : MonoBehaviour
     public Transform cameraTarget; // target that camera will follow
     public Vector3 offset; //camera distance from player
     public float zoomSpeed = 5f;
-    public float min = 5f;
+    public float min = 0f;
     public float max = 50f;
     public float rotationSpeed = 100f;
     public float pitch = 2f;
-
-    private float zoom = 10f;
+    public float zoom = 10f;
+    
     private float rotate = 0f; // value of rotation taken form A/D
 
     // Update is called once per frame
