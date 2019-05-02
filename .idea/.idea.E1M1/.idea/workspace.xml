@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3882d20-b6f3-486d-9c41-d9b61a01ff69" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/CameraToPlayer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraToPlayer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Jump.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Jump.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Move.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Move.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Moves.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Moves.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NODRA.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NODRA.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Material 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Material 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Material 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Material 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner_Hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner_Hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/DownloadPB_Hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/DownloadPB_Hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/DownloadPB_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/DownloadPB_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/ScrollBackground_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/ScrollBackground_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/ScrollBackground_Pro.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/ScrollBackground_Pro.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/changelog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Data/ProBuilderPreferences.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Data/ProBuilderPreferences.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_ResetEntityMaterials.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_ResetEntityMaterials.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Editor/pb_MissingScriptEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Editor/pb_MissingScriptEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Edge.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Edge.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Edge_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Edge_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Face.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Face.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Face_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Face_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Object.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Object.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Object_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Object_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Vertex.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Vertex.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Vertex_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Vertex_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/AltButton_Hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/AltButton_Hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/AltButton_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/AltButton_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/AltButton_Pressed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/AltButton_Pressed.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/AccentBar_Bottom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/AccentBar_Bottom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Hover_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Hover_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Normal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Normal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Pressed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Pressed.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Pressed_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Pressed_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Normal_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Normal_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Normal_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Normal_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Normal_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Normal_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Normal_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Normal_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Hover_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Hover_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Hover_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Hover_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Hover_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Hover_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Hover_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Hover_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Normal_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Normal_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Normal_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Normal_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Normal_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Normal_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Normal_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Normal_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover_Blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover_Blue.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover_BlueSteel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover_BlueSteel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover_Orange.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover_Orange.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_Blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_Blue.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_BlueSteel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_BlueSteel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_Orange.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_Orange.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed_Blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed_Blue.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed_BlueSteel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed_BlueSteel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed_Orange.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed_Orange.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Hover_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Hover_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Hover_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Hover_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Hover_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Hover_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Hover_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Hover_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Hover_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Hover_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Hover_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Hover_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Hover_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Hover_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Hover_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Hover_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Pressed_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Pressed_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Pressed_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Pressed_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Pressed_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Pressed_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Pressed_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Pressed_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Bezier_Aligned.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Bezier_Aligned.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Bezier_Free.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Bezier_Free.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Bezier_Mirrored.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Bezier_Mirrored.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Hover_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Hover_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Normal_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Normal_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Pressed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Pressed.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Pressed_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Pressed_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Bevel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Bevel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Bevel_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Bevel_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Bridge.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Bridge.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Bridge_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Bridge_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Connect.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Connect.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Connect_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Connect_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Extrude.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Extrude.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Extrude_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Extrude_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_FillHole.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_FillHole.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_FillHole_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_FillHole_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_InsertLoop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_InsertLoop.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_InsertLoop_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_InsertLoop_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Subdivide.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Subdivide.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Subdivide_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Subdivide_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_FaceNormals.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_FaceNormals.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_FaceNormals_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_FaceNormals_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_Individual.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_Individual.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_Individual_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_Individual_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_VertexNormals.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_VertexNormals.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_VertexNormals_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_VertexNormals_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Eye_Off.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Eye_Off.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Eye_Off_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Eye_Off_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Eye_On.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Eye_On.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Eye_On_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Eye_On_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_BreakSmoothing.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_BreakSmoothing.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_ConformNormals.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_ConformNormals.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_ConformNormals_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_ConformNormals_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Delete.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Delete.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Delete_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Delete_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Detach.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Detach.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Detach_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Detach_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipNormals.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipNormals.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipNormals_3D.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipNormals_3D.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipNormals_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipNormals_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipTri.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipTri.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipTri_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipTri_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Merge.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Merge.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Merge_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Merge_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Subdivide.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Subdivide.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Subdivide_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Subdivide_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Triangulate.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Triangulate.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Triangulate_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Triangulate_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/HandleAlign_Custom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/HandleAlign_Custom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/HandleAlign_Local.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/HandleAlign_Local.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/HandleAlign_Plane.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/HandleAlign_Plane.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/HandleAlign_World.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/HandleAlign_World.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Help.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Help.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Help_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Help_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Mode_Edge.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Mode_Edge.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Mode_Face.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Mode_Face.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Mode_Object.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Mode_Object.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Mode_Vert.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Mode_Vert.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/NewBezierSpline.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/NewBezierSpline.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/NewPolyShape.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/NewPolyShape.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_ConformNormals.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_ConformNormals.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_ConformNormals_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_ConformNormals_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Export.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Export.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Export_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Export_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_FlipNormals.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_FlipNormals.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_FlipNormals_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_FlipNormals_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_GenerateUV2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_GenerateUV2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_GenerateUV2_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_GenerateUV2_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Merge.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Merge.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Merge_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Merge_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Mirror.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Mirror.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Mirror_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Mirror_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_ProBuilderize.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_ProBuilderize.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_ProBuilderize_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_ProBuilderize_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Subdivide.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Subdivide.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Subdivide_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Subdivide_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Triangulate.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Triangulate.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Triangulate_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Triangulate_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Options.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Options.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_Boolean.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_Boolean.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_GeoDrawing.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_GeoDrawing.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_Materials.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_Materials.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_Shapes.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_Shapes.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_Smoothing.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_Smoothing.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_UVEditor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_UVEditor.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_VertColors.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_VertColors.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_CenterOnElements.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_CenterOnElements.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_CenterOnElements_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_CenterOnElements_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_CenterOnObject.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_CenterOnObject.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_CenterOnObject_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_CenterOnObject_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_DirectEdit.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_DirectEdit.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_Reset.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_Reset.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_Reset_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_Reset_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ProOnly.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ProOnly.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/RoundedBorder.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/RoundedBorder.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Grow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Grow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Grow_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Grow_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Invert.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Invert.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Invert_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Invert_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Loop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Loop.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Loop_Face.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Loop_Face.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Loop_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Loop_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Rect_Complete.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Rect_Complete.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Rect_Intersect.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Rect_Intersect.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Ring.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Ring.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Ring_Face.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Ring_Face.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Ring_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Ring_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectByMaterial.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectByMaterial.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectByMaterial_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectByMaterial_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectBySmoothingGroup.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectBySmoothingGroup.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectBySmoothingGroup_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectBySmoothingGroup_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectByVertexColor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectByVertexColor.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectByVertexColor_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectByVertexColor_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectHidden-OFF.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectHidden-OFF.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectHidden-ON.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectHidden-ON.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectHole.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectHole.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_ShiftAdd.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_ShiftAdd.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_ShiftDifference.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_ShiftDifference.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_ShiftSubtract.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_ShiftSubtract.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Shrink.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Shrink.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Shrink_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Shrink_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Down.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Down.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Down_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Down_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Left.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Left.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Left_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Left_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Right.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Right.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Right_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Right_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Up.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Up.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Up_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Up_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Texturing_Paintbrush.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Texturing_Paintbrush.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Collapse.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Collapse.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Collapse_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Collapse_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Connect.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Connect.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Connect_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Connect_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Split.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Split.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Split_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Split_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Weld.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Weld.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Weld_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Weld_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/null.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/null.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_Manip_Off.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_Manip_Off.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_Manip_On.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_Manip_On.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_ShowTexture_Off.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_ShowTexture_Off.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_ShowTexture_On.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_ShowTexture_On.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/camera-64x64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/camera-64x64.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/camera-64x64_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/camera-64x64_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Material/Checker.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Material/Checker.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Resources/Materials/Default_Prototype.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Resources/Materials/Default_Prototype.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Resources/Textures/GridBox_Default.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Resources/Textures/GridBox_Default.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Doom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Doom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/e1m1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/e1m1.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1109325655">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="1214" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="1214" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Moves.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="18" />
+              <folding>
+                <marker date="1556788579000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556788579000" expanded="true" signature="114:843" ph="{...}" />
+                <marker date="1556788579000" expanded="true" signature="287:374" ph="/* Start is called before the first frame update ... */" />
+                <marker date="1556788579000" expanded="true" signature="399:451" ph="{...}" />
+                <marker date="1556788579000" expanded="true" signature="470:841" ph="{...}" />
+                <marker date="1556788579000" expanded="true" signature="675:744" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jump.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+              <folding>
+                <marker date="1556788760000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556788760000" expanded="true" signature="113:468" ph="{...}" />
+                <marker date="1556788760000" expanded="true" signature="239:291" ph="{...}" />
+                <marker date="1556788760000" expanded="true" signature="310:466" ph="{...}" />
+                <marker date="1556788760000" expanded="true" signature="347:460" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraToPlayer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <marker date="1556789370000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556789370000" expanded="true" signature="123:385" ph="{...}" />
+                <marker date="1556789370000" expanded="true" signature="267:380" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveControl.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <marker date="1556789980000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556789980000" expanded="true" signature="120:1895" ph="{...}" />
+                <marker date="1556789980000" expanded="true" signature="366:449" ph="{...}" />
+                <marker date="1556789980000" expanded="true" signature="507:1343" ph="{...}" />
+                <marker date="1556789980000" expanded="true" signature="554:899" ph="{...}" />
+                <marker date="1556789980000" expanded="true" signature="708:889" ph="{...}" />
+                <marker date="1556789980000" expanded="true" signature="941:1337" ph="{...}" />
+                <marker date="1556789980000" expanded="true" signature="1095:1327" ph="{...}" />
+                <marker date="1556789980000" expanded="true" signature="1236:1313" ph="{...}" />
+                <marker date="1556789980000" expanded="true" signature="1417:1681" ph="{...}" />
+                <marker date="1556789980000" expanded="true" signature="1463:1675" ph="{...}" />
+                <marker date="1556789980000" expanded="true" signature="1510:1581" ph="{...}" />
+                <marker date="1556789980000" expanded="true" signature="1733:1893" ph="{...}" />
+                <marker date="1556789980000" expanded="true" signature="1772:1831" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FPStoRPG.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+              <folding>
+                <marker date="1556792087000" expanded="true" signature="6:100" ph="..." />
+                <marker date="1556792087000" expanded="true" signature="139:1345" ph="{...}" />
+                <marker date="1556792087000" expanded="true" signature="198:1343" ph="{...}" />
+                <marker date="1556792087000" expanded="true" signature="253:771" ph="{...}" />
+                <marker date="1556792087000" expanded="true" signature="821:1337" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractObj.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <folding>
+                <marker date="1556789846000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556789846000" expanded="true" signature="120:1314" ph="{...}" />
+                <marker date="1556789846000" expanded="true" signature="477:543" ph="{...}" />
+                <marker date="1556789846000" expanded="true" signature="601:862" ph="{...}" />
+                <marker date="1556789846000" expanded="true" signature="630:856" ph="{...}" />
+                <marker date="1556789846000" expanded="true" signature="755:846" ph="{...}" />
+                <marker date="1556789846000" expanded="true" signature="917:1007" ph="{...}" />
+                <marker date="1556789846000" expanded="true" signature="1038:1125" ph="{...}" />
+                <marker date="1556789846000" expanded="true" signature="1217:1312" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Move_3p.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding>
+                <marker date="1556790299000" expanded="false" signature="6:100" ph="..." />
+                <marker date="1556790299000" expanded="true" signature="179:1672" ph="{...}" />
+                <marker date="1556790299000" expanded="true" signature="403:461" ph="{...}" />
+                <marker date="1556790299000" expanded="true" signature="519:796" ph="{...}" />
+                <marker date="1556790299000" expanded="true" signature="553:652" ph="{...}" />
+                <marker date="1556790299000" expanded="true" signature="697:790" ph="{...}" />
+                <marker date="1556790299000" expanded="true" signature="867:917" ph="{...}" />
+                <marker date="1556790299000" expanded="true" signature="998:1137" ph="{...}" />
+                <marker date="1556790299000" expanded="true" signature="1197:1306" ph="{...}" />
+                <marker date="1556790299000" expanded="true" signature="1383:1670" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/camera_3p.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <marker date="1556790401000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556790401000" expanded="true" signature="118:1017" ph="{...}" />
+                <marker date="1556790401000" expanded="true" signature="558:759" ph="{...}" />
+                <marker date="1556790401000" expanded="true" signature="790:1015" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FPStoRPG.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera_3p.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Moves.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractObj.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jump.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraToPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Move_3p.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Moves.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jump.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraToPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Move_3p.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/camera_3p.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FPStoRPG.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="162" />
+    <option name="y" value="69" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3882d20-b6f3-486d-9c41-d9b61a01ff69" name="Default Changelist" comment="" />
+      <created>1556784312073</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556784312073</updated>
+      <workItem from="1556784330646" duration="55000" />
+      <workItem from="1556786795040" duration="2508000" />
+      <workItem from="1556789687546" duration="1826000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4389000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="162" y="69" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Unity" order="14" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Moves.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jump.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <marker date="1556788760000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556788760000" expanded="true" signature="113:468" ph="{...}" />
+            <marker date="1556788760000" expanded="true" signature="239:291" ph="{...}" />
+            <marker date="1556788760000" expanded="true" signature="310:466" ph="{...}" />
+            <marker date="1556788760000" expanded="true" signature="347:460" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractObj.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <marker date="1556789846000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556789846000" expanded="true" signature="120:1314" ph="{...}" />
+            <marker date="1556789846000" expanded="true" signature="477:543" ph="{...}" />
+            <marker date="1556789846000" expanded="true" signature="601:862" ph="{...}" />
+            <marker date="1556789846000" expanded="true" signature="630:856" ph="{...}" />
+            <marker date="1556789846000" expanded="true" signature="755:846" ph="{...}" />
+            <marker date="1556789846000" expanded="true" signature="917:1007" ph="{...}" />
+            <marker date="1556789846000" expanded="true" signature="1038:1125" ph="{...}" />
+            <marker date="1556789846000" expanded="true" signature="1217:1312" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Move_3p.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <marker date="1556790299000" expanded="false" signature="6:100" ph="..." />
+            <marker date="1556790299000" expanded="true" signature="179:1672" ph="{...}" />
+            <marker date="1556790299000" expanded="true" signature="403:461" ph="{...}" />
+            <marker date="1556790299000" expanded="true" signature="519:796" ph="{...}" />
+            <marker date="1556790299000" expanded="true" signature="553:652" ph="{...}" />
+            <marker date="1556790299000" expanded="true" signature="697:790" ph="{...}" />
+            <marker date="1556790299000" expanded="true" signature="867:917" ph="{...}" />
+            <marker date="1556790299000" expanded="true" signature="998:1137" ph="{...}" />
+            <marker date="1556790299000" expanded="true" signature="1197:1306" ph="{...}" />
+            <marker date="1556790299000" expanded="true" signature="1383:1670" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/camera_3p.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <marker date="1556790401000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556790401000" expanded="true" signature="118:1017" ph="{...}" />
+            <marker date="1556790401000" expanded="true" signature="558:759" ph="{...}" />
+            <marker date="1556790401000" expanded="true" signature="790:1015" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraToPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <marker date="1556789370000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556789370000" expanded="true" signature="123:385" ph="{...}" />
+            <marker date="1556789370000" expanded="true" signature="267:380" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveControl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <marker date="1556789980000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556789980000" expanded="true" signature="120:1895" ph="{...}" />
+            <marker date="1556789980000" expanded="true" signature="366:449" ph="{...}" />
+            <marker date="1556789980000" expanded="true" signature="507:1343" ph="{...}" />
+            <marker date="1556789980000" expanded="true" signature="554:899" ph="{...}" />
+            <marker date="1556789980000" expanded="true" signature="708:889" ph="{...}" />
+            <marker date="1556789980000" expanded="true" signature="941:1337" ph="{...}" />
+            <marker date="1556789980000" expanded="true" signature="1095:1327" ph="{...}" />
+            <marker date="1556789980000" expanded="true" signature="1236:1313" ph="{...}" />
+            <marker date="1556789980000" expanded="true" signature="1417:1681" ph="{...}" />
+            <marker date="1556789980000" expanded="true" signature="1463:1675" ph="{...}" />
+            <marker date="1556789980000" expanded="true" signature="1510:1581" ph="{...}" />
+            <marker date="1556789980000" expanded="true" signature="1733:1893" ph="{...}" />
+            <marker date="1556789980000" expanded="true" signature="1772:1831" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FPStoRPG.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+          <folding>
+            <marker date="1556792087000" expanded="true" signature="6:100" ph="..." />
+            <marker date="1556792087000" expanded="true" signature="139:1345" ph="{...}" />
+            <marker date="1556792087000" expanded="true" signature="198:1343" ph="{...}" />
+            <marker date="1556792087000" expanded="true" signature="253:771" ph="{...}" />
+            <marker date="1556792087000" expanded="true" signature="821:1337" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Moves.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <marker date="1556788579000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556788579000" expanded="true" signature="114:843" ph="{...}" />
+            <marker date="1556788579000" expanded="true" signature="287:374" ph="/* Start is called before the first frame update ... */" />
+            <marker date="1556788579000" expanded="true" signature="399:451" ph="{...}" />
+            <marker date="1556788579000" expanded="true" signature="470:841" ph="{...}" />
+            <marker date="1556788579000" expanded="true" signature="675:744" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
